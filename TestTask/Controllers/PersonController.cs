@@ -87,17 +87,8 @@ namespace TestTask.Controllers
             }
 
             _context.Persons.Remove(person);
-            //удаление всех лиц, принадлежащих этому человеку
-            foreach (var item in _context.Faces)
-            {
-                if (item.person_id == id)
-                {
-                    _context.Faces.Remove(item);
-                }
-            }
-            
+            _context.Faces.RemoveRange(_context.Faces.Where(e => e.person_id == id));
             await _context.SaveChangesAsync();
-
             return person;
         }
 

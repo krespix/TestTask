@@ -31,7 +31,7 @@ namespace TestTask.Controllers
             {
                 return face.person_id == person_id;
             }
-
+    
             var faces = await _context.Faces.ToListAsync();
             List<Face> result = faces.FindAll(predicate);
             return result;

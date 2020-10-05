@@ -9207,11 +9207,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\U2\\source\\repos\\TestTask - копия\\TestTask\\TestTask.csproj",
+      "projectUniqueName": "C:\\Users\\U2\\source\\repos\\TestTaskFixed\\TestTask\\TestTask.csproj",
       "projectName": "TestTask",
-      "projectPath": "C:\\Users\\U2\\source\\repos\\TestTask - копия\\TestTask\\TestTask.csproj",
+      "projectPath": "C:\\Users\\U2\\source\\repos\\TestTaskFixed\\TestTask\\TestTask.csproj",
       "packagesPath": "C:\\Users\\U2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\U2\\source\\repos\\TestTask - копия\\TestTask\\obj\\",
+      "outputPath": "C:\\Users\\U2\\source\\repos\\TestTaskFixed\\TestTask\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\U2\\AppData\\Roaming\\NuGet\\NuGet.Config",

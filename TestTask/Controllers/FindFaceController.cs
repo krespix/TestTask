@@ -30,6 +30,7 @@ namespace TestTask.Controllers
                 {
                     imageData = binaryReader.ReadBytes((int)file.Length);
                 }
+
                 foreach (var item in _context.Faces)
                 {
                     if (item.imageBytes.SequenceEqual(imageData))
